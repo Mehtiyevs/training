@@ -1,0 +1,102 @@
+put name  // git config --global user.name "Elnur Mehtiyev"
+
+put email // git config --global user.email weatherapi85@gmail.com
+
+
+change branch name //  git config --global init.default branch main
+
+config help info // git config -h
+
+
+detail help info about config // git help config
+
+refresh // clear
+
+
+for change directory // cd c:/Users/1234/gitTraining
+
+for turn directory into repository // git init
+
+
+for status of repository // git status
+
+for track a file // git add fileName.txt
+
+
+untrack a file // git rm --cached fileName.txt
+
+for ignore a file you  should create ".gitignore.txt" in folder which you work.
+After open the file in NotePad and write //  # ignore all.txt files
+						*.txt 
+
+
+track all files // git add --all "or" -A "or"  .
+
+for commit files // git commit -m "my first commit - committing all files to the repository"
+
+
+show what edited or modified // git diff
+
+for remove file from stage // git restore --staged fileName.htm
+
+
+commit without staging steps // git commit -a -m "updated text to free range"
+
+delete file // git rm "fileName.htm"
+
+
+restore file // git restore --staged "fileName.htm"  "after" git restore "fileName.htm" 
+
+rename file // git mv "FileName.png" "NewName.png"
+
+
+add the changes to history book // git commit -m "changed the file name of image"
+
+review all the commits we made // git log
+
+
+abbreviated version // git log --oneline
+
+for amend the text in commit // git commit -m "Changed file name to FileName.png" --amend
+
+
+for check what amend // git log -p
+
+info about log // git help log
+
+
+jump back to pervious commit // git reset c193894
+
+modify what apears in history book // git rebase -i --root
+
+
+create new branch // git branch branchName
+
+switch to another branch // git switch branchName
+
+
+check how many branch you have // git branch
+
+merge all of the changes back in // git merge -m "Merge fixtemp back to main" brancName
+
+
+delete branch // git branch -d branchName
+
+create new branch (2) // git switch -c branchName
+
+
+push all branches to gitHub // git push --all
+
+download all the histories from remote tracking branches // git fetch
+
+
+download all the files // git pull1
+
+
+
+
+
+
+
+
+
